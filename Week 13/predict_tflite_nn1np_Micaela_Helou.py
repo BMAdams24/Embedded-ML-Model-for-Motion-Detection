@@ -6,7 +6,7 @@ import tflite_runtime.interpreter as tflite
 sense = SenseHat()
 
 # Load the TensorFlow Lite model
-interpreter = tflite.Interpreter(model_path="nn_model_raw_1np.tflite")
+interpreter = tflite.Interpreter(model_path="EMB_Model_MH_BA.tflite")
 interpreter.allocate_tensors()
 
 # Get input and output tensors
